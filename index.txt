@@ -1,240 +1,1014 @@
-vCard - Personal Portfolio
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Majid Behravan</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-# sidebar
+  <!-- custom css -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
-
-Show Contacts
-
-Email
-richard@example.com
-
-Phone
-+1 (213) 352-2795
-
-Birthday
-June 23, 1982
-
-Location
-Sacramento, California, USA
-
-# navbar
-
-About
-Resume
-Portfolio
-Blog
-Contact
-
-# about
-
-About me
-
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
-
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
-
-
-## service
-
-What i'm doing
-
-alt = design icon
-Web design
-The most modern and high-quality design made at a professional level.
-
-alt = Web development icon
-Web development
-High-quality development of sites at the professional level.
-
-alt = mobile app icon
-Mobile apps
-Professional development of applications for iOS and Android.
-
-alt = camera icon
-Photography
-I make high-quality photos of any category at a professional level.
-
-
-## testimonials
-
-Testimonials
-
-alt = Daniel lewis
-Daniel lewis
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-
-alt = Jessica miller
-Jessica miller
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-
-alt = Emily evans
-Emily evans
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-
-alt = Henry william
-Henry william
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-
-
-## clients
-
-Clients
-
-alt = client logo
-
-
-
-# resume
-
-Resume
-
-Education
-
-University school of the arts
-2007 — 2008
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
-
-New york academy of art
-2006 — 2007
-Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..
-
-High school of art and design
-2002 — 2004
-Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
-
-Experience
-
-Creative director
-2015 — Present
-Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.
-
-Art director
-2013 — 2015
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
-
-Web designer
-2010 — 2013
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
-
-My skills
-
-Web design
-80%
-Graphic design
-70%
-Branding
-90%
-WordPress
-50%
-
-
-
-# portfolio
-
-Portfolio
-
-All
-Web design
-Applications
-Web development
-
-Select category
-All
-Web design
-Applications
-Web development
-
-alt = finance
-Finance
-Web development
-
-alt = orizon
-Orizon
-Web development
-
-alt = fundo
-Fundo
-Web design
-
-alt = brawlhalla
-Brawlhalla
-Applications
-
-alt = dsm.
-DSM.
-Web design
-
-alt = metaspark
-MetaSpark
-Web design
-
-alt = summary
-Summary
-Web development
-
-alt = task manager
-Task Manager
-Applications
-
-alt = arrival
-Arrival
-Web development
-
-
-
-# blog
-
-Blog
-
-alt = Design conferences in 2022
-Design
-Fab 23, 2022
-Design conferences in 2022
-Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-
-alt = Best fonts every designer
-Design
-Fab 23, 2022
-Best fonts every designer
-Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-
-alt = Design digest #80
-Design
-Fab 23, 2022
-Design digest #80
-Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-
-alt = UI interactions of the week
-Design
-Fab 23, 2022
-UI interactions of the week
-Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-
-alt = The forgotten art of spacing
-Design
-Fab 23, 2022
-The Forgotten Art Of Spacing
-Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-alt = Design digest #79
-Design
-Fab 23, 2022
-Design Digest #79
-Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-
-
-
-# contact
-
-Contact
-
-Contact Form
-
-Full name
-Email address
-Your Message
-
-Send Message
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/headshot.jpg" alt="Majid Behravan" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Majid Behravan">Majid Behravan</h1>
+          <p class="title">Postdoctoral Researcher – HCI, XR &amp; Generative AI</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:majid.behravan@hotmail.com" class="contact-link">
+                majid.behravan@hotmail.com
+              </a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+15406181427" class="contact-link">
+                +1 (540) 618-1427
+              </a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>USA</address>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/majid-behravan-5a262a79/"
+               target="_blank" rel="noopener"
+               class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+
+
+      <!-- ABOUT -->
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m a postdoctoral researcher with a PhD in Management Information Technology
+            (Business Intelligence), working at the intersection of human–computer interaction,
+            extended reality (XR), and generative AI. My recent work focuses on context-aware
+            3D content generation for augmented reality, empathic human–AI interaction using
+            physiological signals, and multimodal AI pipelines that bridge language, vision,
+            and immersive environments.
+          </p>
+
+          <p>
+            I combine strong data engineering skills—databases, ETL, BI dashboards, and cloud
+            platforms—with HCI research and experimental XR systems. I enjoy building
+            end-to-end pipelines: from data and models to real-time interactive prototypes that
+            are evaluated with users.
+          </p>
+
+          <p>
+            My long-term goal is to design AI-powered interactive systems that are not only
+            intelligent, but also trustworthy, empathic, and accessible in everyday AR/VR
+            experiences.
+          </p>
+        </section>
+
+        <!-- WHAT I'M DOING -->
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="HCI & XR Research icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">HCI &amp; XR Research</h4>
+                <p class="service-item-text">
+                  Designing and evaluating interactive AR/VR experiences with a focus on user
+                  needs, usability, and empirical studies.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="Generative AI icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Generative AI for AR/VR</h4>
+                <p class="service-item-text">
+                  Building multimodal generative AI frameworks for real-time 3D object generation,
+                  context-aware content, and voice-driven interactions in XR.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Data Engineering icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Engineering &amp; BI</h4>
+                <p class="service-item-text">
+                  Designing databases, ETL pipelines, and interactive BI dashboards for large-scale,
+                  high-impact analytics and decision support.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="Interactive Prototyping icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Interactive Prototyping</h4>
+                <p class="service-item-text">
+                  Rapid prototyping of research systems that integrate sensing, visualization, and
+                  conversational interfaces for user studies.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!-- RESUME -->
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <!-- EDUCATION -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Master of Computer Science – Virginia Tech
+              </h4>
+              <span>2023 – 2024</span>
+              <p class="timeline-text">
+                Thesis: <em>Generative AI Framework for 3D Object Generation in
+                Augmented Reality</em>, developing a multimodal pipeline for
+                context-aware 3D content in AR environments.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Ph.D. in Management Information Technology (Business Intelligence)
+              </h4>
+              <span>2017 – 2022</span>
+              <p class="timeline-text">
+                Dissertation: <em>Designing a Recommendation System of Detergent
+                Products with Fuzzy Sentiment Analysis Approach</em>, combining BI
+                and intelligent decision support.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                M.S. Management Information Technology – Payam Noor University
+              </h4>
+              <span>2010 – 2015</span>
+              <p class="timeline-text">
+                Thesis on dynamic tariffing in the insurance industry using data
+                mining for third-party car insurance.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                B.S. Information Technology – Parand Azad University
+              </h4>
+              <span>2006 – 2010</span>
+              <p class="timeline-text">
+                Coursework in databases, networking, and software engineering,
+                forming the foundation for later BI and HCI work.
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Postdoctoral Researcher – Morgan State University
+              </h4>
+              <span>Jan 2025 – Present</span>
+              <p class="timeline-text">
+                Developing AI-driven ETL pipelines and fine-tuned LLMs to process
+                large-scale CSR data (news, social media, and reports). Designing
+                PostgreSQL databases with tens of millions of records and building
+                interactive Power BI dashboards for real-time CSR analytics and
+                reporting. Engineering automated web scraping and data collection
+                from U.S. firms and social media streams.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Data Engineer – Rayan Bourse Company, Tehran
+              </h4>
+              <span>Jun 2017 – Mar 2022</span>
+              <p class="timeline-text">
+                Designed and implemented databases in PostgreSQL and SQL Server
+                based on business requirements. Built customized Power BI dashboards
+                processing VoIP call log data to improve monitoring and response.
+                Optimized query performance through indexing and schema redesign,
+                reducing latency across frequent business queries. Configured SQL
+                Server Always-On availability groups and automated backups for
+                high availability.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Business Intelligence &amp; Database Developer –
+                Saman Andishan Pishroo, Tehran
+              </h4>
+              <span>Mar 2012 – Apr 2017</span>
+              <p class="timeline-text">
+                Architected a data warehouse consolidating multiple source systems.
+                Developed SSIS ETL pipelines integrating data from dozens of
+                insurance companies. Created Power BI and QlikView dashboards to
+                support data-driven decision-making and ad-hoc analytics with
+                complex SQL scripting.
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HCI, XR &amp; AR/VR Prototyping</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Generative AI &amp; LLMs</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Data Engineering &amp; Databases</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">BI &amp; Visualization (Power BI, Tableau)</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Programming (Python, C#, JavaScript)</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!-- PORTFOLIO -->
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>HCI & XR</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Generative AI</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data & BI</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>HCI & XR</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Generative AI</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data & BI</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <!-- Generative AI for Context-Aware 3D Object Creation -->
+            <li class="project-item active" data-filter-item data-category="generative ai">
+              <a href="#" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-ar-context-aware.jpg"
+                       alt="Generative AI for context-aware 3D object creation in AR"
+                       loading="lazy">
+                </figure>
+
+                <h3 class="project-title">
+                  Generative AI for Context-Aware 3D Object Creation in AR
+                </h3>
+
+                <p class="project-category">Generative AI · HCI &amp; XR</p>
+
+              </a>
+            </li>
+
+            <!-- Empathic Human–AI Interaction -->
+            <li class="project-item active" data-filter-item data-category="hci & xr">
+              <a href="#" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-empathic-xr.jpg"
+                       alt="Empathic XR interaction using physiological signals and LLMs"
+                       loading="lazy">
+                </figure>
+
+                <h3 class="project-title">
+                  Empathic Human–AI Interaction via Physiological Signals &amp; LLMs
+                </h3>
+
+                <p class="project-category">HCI &amp; XR</p>
+
+              </a>
+            </li>
+
+            <!-- Embodied AI Tutors -->
+            <li class="project-item active" data-filter-item data-category="hci & xr">
+              <a href="#" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-embodied-tutor.jpg"
+                       alt="Embodied AI tutors in immersive e-learning"
+                       loading="lazy">
+                </figure>
+
+                <h3 class="project-title">
+                  Embodied AI Tutors in Immersive E-Learning
+                </h3>
+
+                <p class="project-category">HCI &amp; XR</p>
+
+              </a>
+            </li>
+
+            <!-- IoT Database & ETL Redesign -->
+            <li class="project-item active" data-filter-item data-category="data & bi">
+              <a href="#" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-iot-etl.jpg"
+                       alt="IoT database and ETL redesign"
+                       loading="lazy">
+                </figure>
+
+                <h3 class="project-title">IoT Database &amp; ETL Redesign</h3>
+
+                <p class="project-category">Data &amp; BI</p>
+
+              </a>
+            </li>
+
+            <!-- Insurance Data Warehouse & BI Platform -->
+            <li class="project-item active" data-filter-item data-category="data & bi">
+              <a href="#" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-insurance-bi.jpg"
+                       alt="Insurance data warehouse and BI platform"
+                       loading="lazy">
+                </figure>
+
+                <h3 class="project-title">
+                  Insurance Data Warehouse &amp; BI Platform
+                </h3>
+
+                <p class="project-category">Data &amp; BI</p>
+
+              </a>
+            </li>
+
+            <!-- YouTube Video 1 -->
+            <li class="project-item active" data-filter-item data-category="hci & xr">
+              <a href="https://youtu.be/nsPKoadMmEY" target="_blank" rel="noopener">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="play-outline"></ion-icon>
+                  </div>
+                  <img
+                    src="https://img.youtube.com/vi/nsPKoadMmEY/hqdefault.jpg"
+                    alt="XR project demo video 1" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">XR Project Demo – Video 1</h3>
+
+                <p class="project-category">HCI &amp; XR · Video</p>
+
+              </a>
+            </li>
+
+            <!-- YouTube Video 2 -->
+            <li class="project-item active" data-filter-item data-category="hci & xr">
+              <a href="https://youtu.be/MJWHaVeUQdg" target="_blank" rel="noopener">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="play-outline"></ion-icon>
+                  </div>
+                  <img
+                    src="https://img.youtube.com/vi/MJWHaVeUQdg/hqdefault.jpg"
+                    alt="XR project demo video 2" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">XR Project Demo – Video 2</h3>
+
+                <p class="project-category">HCI &amp; XR · Video</p>
+
+              </a>
+            </li>
+
+            <!-- YouTube Video 3 -->
+            <li class="project-item active" data-filter-item data-category="hci & xr">
+              <a href="https://youtu.be/0I9qoCcCcrY" target="_blank" rel="noopener">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="play-outline"></ion-icon>
+                  </div>
+                  <img
+                    src="https://img.youtube.com/vi/0I9qoCcCcrY/hqdefault.jpg"
+                    alt="XR project demo video 3" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">XR Project Demo – Video 3</h3>
+
+                <p class="project-category">HCI &amp; XR · Video</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!-- PUBLICATIONS -->
+      <article class="blog" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <!-- From Voices to Worlds -->
+            <li class="blog-post-item">
+              <a href="#" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/pub-ar-voice.jpg"
+                       alt="From Voices to Worlds – 3D Object Generation in AR"
+                       loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">IEEE VR Workshops</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-01-01">2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    From Voices to Worlds: Developing an AI-Powered Framework for
+                    3D Object Generation in Augmented Reality
+                  </h3>
+
+                  <p class="blog-text">
+                    A framework that maps speech to semantically relevant 3D objects,
+                    enabling natural voice-driven content creation in AR environments.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <!-- Context-Aware 3D Object Creation -->
+            <li class="blog-post-item">
+              <a href="#" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/pub-ar-context.jpg"
+                       alt="Generative AI for Context-Aware 3D Object Creation in AR"
+                       loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">AI &amp; eXtended Reality</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-01-01">2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Generative AI for Context-Aware 3D Object Creation Using
+                    Vision–Language Models in Augmented Reality
+                  </h3>
+
+                  <p class="blog-text">
+                    Explores vision–language models for generating 3D content that adapts
+                    to spatial context and user intent in AR.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <!-- Real-Time 3D Model Generation -->
+            <li class="blog-post-item">
+              <a href="#" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/pub-ar-realtime.jpg"
+                       alt="Real-time 3D model generation in AR"
+                       loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">HCI</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-01-01">2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Transcending Dimensions Using Generative AI:
+                    Real-Time 3D Model Generation in Augmented Reality
+                  </h3>
+
+                  <p class="blog-text">
+                    Presents a real-time AR pipeline for generating and placing 3D models
+                    on-the-fly, enabling dynamic and adaptive XR experiences.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <!-- Empathic Extended Reality -->
+            <li class="blog-post-item">
+              <a href="#" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/pub-empathic.jpg"
+                       alt="Empathic Extended Reality in the Era of Generative AI"
+                       loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Empathic Computing</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-01-01">2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Empathic Extended Reality in the Era of Generative AI
+                  </h3>
+
+                  <p class="blog-text">
+                    Discusses how generative AI and physiological sensing can enable
+                    empathic XR systems that adapt to users’ emotional states.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <!-- Embodied AI Tutors -->
+            <li class="blog-post-item">
+              <a href="#" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/pub-embodied-tutor.jpg"
+                       alt="Embodied AI tutors in immersive virtual environments"
+                       loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">HCII 2024</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-01-01">2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Enhancing E-Learning Through Embodied AI Tutors in
+                    Immersive Virtual Environments
+                  </h3>
+
+                  <p class="blog-text">
+                    Evaluates how embodied AI tutors in VR can improve engagement and
+                    learning outcomes in e-learning scenarios.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <!-- Generative Multi-Modal AI for AR -->
+            <li class="blog-post-item">
+              <a href="#" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/pub-multimodal.jpg"
+                       alt="Generative multimodal AI for AR content"
+                       loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">VR / AR</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-01-01">2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Generative Multi-Modal Artificial Intelligence for Dynamic
+                    Real-Time Context-Aware Content Creation in AR
+                  </h3>
+
+                  <p class="blog-text">
+                    Introduces a multimodal generative AI pipeline that fuses language
+                    and visual context to synthesize AR content in real time.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <!-- Attention & AR for ADHD -->
+            <li class="blog-post-item">
+              <a href="#" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/pub-adhd-ar.jpg"
+                       alt="Attention and sensory processing in AR for ADHD"
+                       loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">HCII 2024</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-01-01">2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Attention and Sensory Processing in Augmented Reality:
+                    Empowering the ADHD Population
+                  </h3>
+
+                  <p class="blog-text">
+                    Studies how AR can support attention and sensory processing for users
+                    with ADHD, informing inclusive XR design.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <!-- Earlier BI / Data Mining work -->
+            <li class="blog-post-item">
+              <a href="#" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/pub-bi.jpg"
+                       alt="Recommender and dynamic tariffing with data mining"
+                       loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">BI &amp; Data Mining</p>
+                    <span class="dot"></span>
+                    <time datetime="2021-01-01">2018–2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    Recommender Systems &amp; Dynamic Tariffing with Data Mining
+                    and Fuzzy Sentiment Analysis
+                  </h3>
+
+                  <p class="blog-text">
+                    Earlier work on applying data mining and fuzzy sentiment analysis to
+                    recommendation systems and dynamic pricing in insurance and retail.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!-- CONTACT -->
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sUnited%20States!5e0!3m2!1sen!2s!4v1647608789441!5m2!1sen!2s"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input"
+                     placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input"
+                     placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input"
+                      placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+  <!-- custom js -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- ionicons -->
+  <script type="module"
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
