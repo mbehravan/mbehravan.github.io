@@ -1,27 +1,71 @@
 'use strict';
 
-// ===== Utility: toggle "active" class =====
-const elementToggleFunc = function (elem) {
-  elem.classList.toggle("active");
-};
+/**
+ * Simple script:
+ * - Sidebar toggle
+ * - Page navigation
+ * - Portfolio filter
+ * - Contact form validation
+ */
 
 
-
-// ===== SIDEBAR =====
+/* ========== SIDEBAR ========== */
 
 const sidebar = document.querySelector("[data-sidebar]");
 const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 
-// sidebar toggle functionality for mobile
 if (sidebar && sidebarBtn) {
   sidebarBtn.addEventListener("click", function () {
-    elementToggleFunc(sidebar);
+    sidebar.classList.toggle("active");
   });
 }
 
 
 
-// ===== CUSTOM SELECT + PORTFOLIO FILTER =====
+/* ========== PAGE NAVIGATION ========== */
+/**
+ * دکمه‌ها: [data-nav-link]
+ * صفحات: [data-page]
+ *
+ * مقدار data-page باید برابر متن دکمه به حروف کوچک باشد:
+ *  About         -> data-page="about"
+ *  Resume        -> data-page="resume"
+ *  Portfolio     -> data-page="portfolio"
+ *  Publications  -> data-page="publications"
+ *  Contact       -> data-page="contact"
+ */
+
+const navigationLinks = document.querySelectorAll("[data-nav-link]");
+const pages = document.querySelectorAll("[data-page]");
+
+if (navigationLinks.length > 0 && pages.length > 0) {
+  navigationLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      const target = link.textContent.trim().toLowerCase();
+
+      // لینک‌های فعال
+      navigationLinks.forEach((navLink) => {
+        navLink.classList.remove("active");
+      });
+      link.classList.add("active");
+
+      // صفحات فعال
+      pages.forEach((page) => {
+        if (page.dataset.page === target) {
+          page.classList.add("active");
+        } else {
+          page.classList.remove("active");
+        }
+      });
+
+      window.scrollTo(0, 0);
+    });
+  });
+}
+
+
+
+/* ========== PORTFOLIO FILTER ========== */
 
 const select = document.querySelector("[data-select]");
 const selectItems = document.querySelectorAll("[data-select-item]");
@@ -29,7 +73,6 @@ const selectValue = document.querySelector("[data-selecct-value]");
 const filterBtn = document.querySelectorAll("[data-filter-btn]");
 const filterItems = document.querySelectorAll("[data-filter-item]");
 
-// فیلتر کردن پروژه‌ها براساس data-category
 const filterFunc = function (selectedValue) {
   for (let i = 0; i < filterItems.length; i++) {
     if (selectedValue === "all") {
@@ -42,26 +85,24 @@ const filterFunc = function (selectedValue) {
   }
 };
 
-// اگر المنت‌های سِلکت وجود داشته باشند
+// دراپ‌داون (برای صفحه‌نمایش کوچک)
 if (select && selectValue && filterItems.length > 0) {
 
-  // باز و بسته شدن دراپ‌داون
   select.addEventListener("click", function () {
-    elementToggleFunc(select);
+    select.classList.toggle("active");
   });
 
-  // انتخاب آیتم از دراپ‌داون
   for (let i = 0; i < selectItems.length; i++) {
     selectItems[i].addEventListener("click", function () {
       const selectedValue = this.innerText.toLowerCase();
       selectValue.innerText = this.innerText;
-      elementToggleFunc(select);
+      select.classList.remove("active");
       filterFunc(selectedValue);
     });
   }
 }
 
-// دکمه‌های فیلتر برای صفحه‌های بزرگ
+// دکمه‌های فیلتر (برای صفحه‌نمایش بزرگ)
 if (filterBtn.length > 0 && selectValue && filterItems.length > 0) {
   let lastClickedBtn = filterBtn[0];
 
@@ -82,7 +123,7 @@ if (filterBtn.length > 0 && selectValue && filterItems.length > 0) {
 
 
 
-// ===== CONTACT FORM =====
+/* ========== CONTACT FORM VALIDATION ========== */
 
 const form = document.querySelector("[data-form]");
 const formInputs = document.querySelectorAll("[data-form-input]");
@@ -98,33 +139,4 @@ if (form && formBtn && formInputs.length > 0) {
       }
     });
   }
-}
-
-
-
-// ===== PAGE NAVIGATION (About / Resume / Portfolio / Publications / Contact) =====
-
-const navigationLinks = document.querySelectorAll("[data-nav-link]");
-const pages = document.querySelectorAll("[data-page]");
-
-if (navigationLinks.length > 0 && pages.length > 0) {
-  navigationLinks.forEach((link) => {
-    link.addEventListener("click", () => {
-      const target = link.textContent.trim().toLowerCase(); // about, resume, portfolio, publications, contact
-
-      // فعال/غیرفعال کردن لینک‌ها
-      navigationLinks.forEach((navLink) => navLink.classList.remove("active"));
-      link.classList.add("active");
-
-      // فعال/غیرفعال کردن صفحات
-      pages.forEach((page) => {
-        if (page.dataset.page === target) {
-          page.classList.add("active");
-          window.scrollTo(0, 0);
-        } else {
-          page.classList.remove("active");
-        }
-      });
-    });
-  });
 }
