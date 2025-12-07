@@ -7,6 +7,33 @@
  * copyright 2022 @codewithsadee
  */
 
+/* Publications list style */
+.pub-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pub-item {
+  margin-bottom: 0.75rem; /* فاصله بین آیتم‌ها */
+}
+
+.pub-title {
+  font-size: 0.9rem;        /* کوچیک‌تر از h3/h2 */
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--white-2, #ffffff);
+}
+
+.pub-title:hover {
+  color: var(--orange-yellow-crayola, #ffb400);
+}
+
+.pub-meta {
+  font-size: 0.8rem;        /* حتی ریزتر برای زیرعنوان */
+  color: var(--light-gray, #a0a0a0);
+  margin-top: 0.1rem;
+}
 
 
 
